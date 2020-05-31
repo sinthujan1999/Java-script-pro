@@ -32,8 +32,10 @@ alert("Hello" + " " + "world");
 }
 
 function Cube() {
-  var Num = prompt("ENTER THE NUMBER");
-  var Result = Num*Num*Num;
+var L= prompt("ENTER THE Length");
+var W= prompt("ENTER THE Width");
+var H= prompt("ENTER THE Height");
+  var Result = L*W*H;
   alert(Result);
 }
 
