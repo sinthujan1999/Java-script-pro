@@ -1,7 +1,12 @@
 function square() {
   var Num = prompt("ENTER THE NUMBER");
   var Result = Num*Num;
+  if (Num == " ") {
+  alert("Number must be filled out");
+}
+else{
   alert(Result);
+}
 }
 
   var Num1 = 4;
